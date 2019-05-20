@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Servidores Minicurso Django</title>
+</head>
+<body>
+    <h3>Mostrando todos os servidores cadastrados no banco de dados</h3>
+    <ul>
+    {% if servidores %}
+        {% for servidor in servidores %}
+            <li><a href="{% url 'servidores-detalhes' servidor.id %}">{{ servidor }}</a></li>
+        {% endfor %}
+    {% else %}
+        <p>Não tem nenhum servidor cadastrado no momento.</p>
+    </ul>
+    {% endif %}
+</body>
+</html>
