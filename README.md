@@ -10,13 +10,13 @@ Ao fazer a instalação do Python, assegure-se de marcar as seguintes caixas de 
 
 ![alt text](https://i.ibb.co/1XY0gZF/Capture.png "Install Python 1")
 
-Clique em "Customize Installation e deixe marcado pip.
+Clique em *"Customize Installation"* e deixe marcado pip.
 
 ![alt text](https://i.ibb.co/qpdhJKx/Capture.png "Install Python 2")
 
 ## Instalação do Ambiente Virtual
 
-No seu terminal, instale o virtual environment com o seguinte comando:
+No seu terminal, instale o **virtual environment** com o seguinte comando:
 
 `pip install virtualenv`
 
@@ -42,7 +42,7 @@ Para desativar o ambiente virtual após o uso é bem simples, apenas digite no s
 
 `deactivate`
 
-Após tudo funcionando, é só seguir os passos do slide disponibilizado.
+Após tudo funcionando, é só seguir os passos do slide disponibilizado. :blush:
 
 ## Autor
 
