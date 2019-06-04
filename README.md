@@ -1,2 +1,7 @@
-# minicurso-django
-Repositório para o minicurso de Django ministrado para a disciplina de LP3.
+# Minicurso de Django
+
+Repositório para divulgar os arquivos desenvolvidos durante o minicurso na disciplina de Linguagem de Programação III.
+
+## Autor
+
+Douglas Frota Brandão - [douglasbrandao](https://github.com/douglasbrandao "Douglas Brandão")
